@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/mapdata",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Map CSV/TSV data tables for quick inspection and cleanup.",
+  "bin": {
+    "mapdata": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/mapdata.git"
+  },
+  "homepage": "https://theworker02.github.io/mapdata/",
+  "keywords": [
+    "map",
+    "data",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
